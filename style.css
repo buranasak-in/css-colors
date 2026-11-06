@@ -1,1 +1,43 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* สร้างพื้นหลังแบบไล่ระดับสี (Gradient) จากส้ม/ชมพู ไปม่วง/น้ำเงิน */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #8a2be2, #4a00e0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.card {
+    /* พื้นหลังกล่องสีขาวขุ่นโปร่งแสงเล็กน้อย */
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.card p {
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: justify; /* จัดข้อความให้ชิดสองข้างเหมือนในตัวอย่าง */
+}/* Start coding here */
